@@ -1,0 +1,11 @@
+Bundle-Name: Liferay Site Admin Web
+Bundle-SymbolicName: com.liferay.site.admin.web
+Bundle-Version: 1.0.60
+Liferay-Releng-Module-Group-Title: Site Management
+Web-ContextPath: /site-admin-web
+-dsannotations-options: inherit    
+
+#-includeresource: lib/com.liferay.site.admin.web-1.0.59.jar=lib/com.liferay.site.admin.web-1.0.59.jar
+#Bundle-ClassPath: .,\
+	
+Include-Resource: @com.liferay.site.admin.web-1.0.59.jar
